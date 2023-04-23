@@ -53,6 +53,24 @@ We additionally used BERT for text vectorization
 
 we enhanced the performance of original model using the source code by implementing other classification algorithms like Support Vector Machines (SVM), XgBoost, Ensemble models, Neural networks and also used Gridsearch to tune the hyperparameters of your model
 
+# Algorithm, Limitations and their strengths
+
+# Support Vector Machines (SVM)
+
+Support Vector Machines (SVM) Sensitive to feature scaling and choice of kernel, can be slow for large datasets, not suitable for multi-class classification without modification Effective for high-dimensional data, can handle non-linear decision boundaries using kernel trick
+
+# XgBoost
+XgBoost Can be slow to train for very large datasets, requires careful hyperparameter tuning for optimal performance Highly efficient, reduces overfitting by combining multiple weak learners, can handle both numerical and categorical data, supports parallel processing
+
+# Ensemble models (Voting Classifier) 
+Ensemble models (Voting Classifier) Complexity increases with the number of classifiers, may be slower than individual classifiers Combines predictions from multiple models to improve overall performance, can handle both numerical and categorical data
+
+# Neural Networks
+Neural Networks Can be slow to train, sensitive to hyperparameter choices, may require large datasets for good performance Can model complex non-linear relationships, supports a variety of activation functions and architectures, can handle both numerical and categorical data
+
+# GaussianNB
+GaussianNB Makes strong independence assumptions between features, can be sensitive to feature scaling Simple and fast to train, performs well for small datasets and when features are approximately independent
+
 # Conclusion and Future Direction
 #Comparing AUC Scores:- 
 
