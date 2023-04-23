@@ -51,7 +51,7 @@ We additionally used BERT for text vectorization
 
 # Evaluating using different models
 
-we enhanced the performance of your model using this code by using other classification algorithms like Support Vector Machines (SVM), XgBoost, Ensemble models, Neural networks and also used Gridsearch to tune the hyperparameters of your model
+we enhanced the performance of original model using the source code by implementing other classification algorithms like Support Vector Machines (SVM), XgBoost, Ensemble models, Neural networks and also used Gridsearch to tune the hyperparameters of your model
 
 # Conclusion and Future Direction
 #Comparing AUC Scores:- 
