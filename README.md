@@ -72,7 +72,8 @@ Neural Networks Can be slow to train, sensitive to hyperparameter choices, may r
 GaussianNB Makes strong independence assumptions between features, can be sensitive to feature scaling Simple and fast to train, performs well for small datasets and when features are approximately independent
 
 # Conclusion and Future Direction
-#Comparing AUC Scores:- 
+
+# Comparing AUC Scores:- 
 
 The Ensemble Model (Voting Classifier) with tf-idf has the highest AUC score (0.8557), making it the best-performing model among the classifiers tested. This indicates that combining the predictions of multiple models can lead to better overall performance.
 
